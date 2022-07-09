@@ -1,0 +1,101 @@
+:root {
+    box-sizing: border-box;
+    --font-family: Helvecita;
+    --left-color: black;
+     font-size: 20px;
+     --color: mintcream;
+     --colorGreen: #065B2D;
+}
+
+@media (min-width:400px){
+    :root{
+    font-size: 5px;
+    float:right;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+}
+@media (min-width:800px){
+    :root{
+    font-size: 20px;
+    }
+}
+@media (min-width:1600px){
+    :root{
+    font-size: 20px;
+    }
+}
+h1,h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color : var(--color);
+}
+.main-container {
+    display: flex;
+}
+nav{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-top: 12em;
+} 
+
+.left-container {
+    background-color: var(--left-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+    height: 100vh;
+    font: medium 1rem var(--font-family);
+    }
+.code-master {
+    /* background-color: red; */
+    background-image: url("codingMaster.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 20vh;
+    width: 12vw;
+    margin-top: 0em;
+}
+.img-container {
+    background-image: url("programmerImage.jpg");
+    height: 100vh;
+    width: 75vw;
+    background-position:center;
+    background-size:100%;
+    background-repeat: no-repeat;
+    position:absolute;
+    top:0em;
+    right:0em;
+} 
+ a {
+    margin: 8px;
+    text-decoration: none;
+    color: var(--color);
+    padding: 0em 2.5em;
+} 
+.button{ 
+    border : none;
+    border-radius: 2rem;
+    color: var(--color);
+    background-color: var(--colorGreen);
+    padding: 2em 3em ;
+    font-size: 1em;
+    width: 10em;
+} 
+
+.inner-mat {
+    /* display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    align-self:center; */
+    margin-top: 15em;
+    margin-left: 5em; 
+    
+}
